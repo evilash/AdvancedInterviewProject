@@ -1,0 +1,6 @@
+*.xcbkptlist
+.DS_Store
+AdvancedInterviewProject/Lib/.DS_Store
+AdvancedInterviewProject.xcodeproj/xcuserdata/
+AdvancedInterviewProject.xcworkspace/xcuserdata/*
+AdvancedInterviewProject.xcodeproj/project.xcworkspace/xcuserdata/
