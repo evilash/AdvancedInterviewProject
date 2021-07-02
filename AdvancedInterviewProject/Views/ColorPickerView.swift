@@ -14,7 +14,7 @@ struct ColorPickerView: View {
     var body: some View {
         ColorPickerText()
         LazyHGrid(rows: rows) {
-            ForEach(viewModel.buttonColors) { buttonColor in
+            ForEach(viewModel.allButtonColors) { buttonColor in
                 ColorPickerButton(colorInfo: buttonColor)
             }
         }

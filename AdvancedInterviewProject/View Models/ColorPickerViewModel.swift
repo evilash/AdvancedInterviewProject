@@ -11,7 +11,7 @@ class ColorPickerViewModel: ObservableObject {
     @Published var color = Color.black
     @Published var message = "Tap a button!"
     
-    var buttonColors: [ButtonColors] { ButtonColors.allCases }
+    var allButtonColors: [ButtonColors] { ButtonColors.allCases }
     
     func change(color buttonColor: ButtonColors) {
         color = Color.buttonColor
