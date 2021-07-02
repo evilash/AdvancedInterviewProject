@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E17F473268E69EE0036FF8F /* ColorPickerText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17F472268E69EE0036FF8F /* ColorPickerText.swift */; };
+		4E48CCC4268F726F007D759B /* ImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E48CCC3268F726F007D759B /* ImageTestView.swift */; };
+		4EE8D46A268E33A8000B7CD3 /* Color+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8D469268E33A8000B7CD3 /* Color+extensions.swift */; };
 		C959D851268D61760050E59F /* AdvancedInterviewProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D850268D61760050E59F /* AdvancedInterviewProjectApp.swift */; };
-		C959D853268D61760050E59F /* AdvancedInterviewProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D852268D61760050E59F /* AdvancedInterviewProject.swift */; };
+		C959D853268D61760050E59F /* AdvancedInterviewProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D852268D61760050E59F /* AdvancedInterviewProjectView.swift */; };
 		C959D855268D61770050E59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C959D854268D61770050E59F /* Assets.xcassets */; };
 		C959D858268D61770050E59F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C959D857268D61770050E59F /* Preview Assets.xcassets */; };
+		C959D862268D7ADC0050E59F /* ButtonColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D861268D7ADC0050E59F /* ButtonColors.swift */; };
+		C959D867268D7C9E0050E59F /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D866268D7C9E0050E59F /* ColorPickerView.swift */; };
+		C959D86A268D7EE70050E59F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D869268D7EE70050E59F /* Constants.swift */; };
+		C959D873268D82900050E59F /* ColorPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D872268D82900050E59F /* ColorPickerViewModel.swift */; };
+		C959D878268E29960050E59F /* ColorPickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D877268E29960050E59F /* ColorPickerButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E17F472268E69EE0036FF8F /* ColorPickerText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerText.swift; sourceTree = "<group>"; };
+		4E48CCC3268F726F007D759B /* ImageTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestView.swift; sourceTree = "<group>"; };
+		4EE8D469268E33A8000B7CD3 /* Color+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extensions.swift"; sourceTree = "<group>"; };
 		C959D84D268D61760050E59F /* AdvancedInterviewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedInterviewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C959D850268D61760050E59F /* AdvancedInterviewProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedInterviewProjectApp.swift; sourceTree = "<group>"; };
-		C959D852268D61760050E59F /* AdvancedInterviewProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedInterviewProject.swift; sourceTree = "<group>"; };
+		C959D852268D61760050E59F /* AdvancedInterviewProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedInterviewProjectView.swift; sourceTree = "<group>"; };
 		C959D854268D61770050E59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C959D857268D61770050E59F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C959D859268D61770050E59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C959D861268D7ADC0050E59F /* ButtonColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonColors.swift; sourceTree = "<group>"; };
+		C959D866268D7C9E0050E59F /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		C959D869268D7EE70050E59F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C959D872268D82900050E59F /* ColorPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewModel.swift; sourceTree = "<group>"; };
+		C959D877268E29960050E59F /* ColorPickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E17F475268E6A0C0036FF8F /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				4E17F472268E69EE0036FF8F /* ColorPickerText.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		4EE8D46C268E33CA000B7CD3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4EE8D469268E33A8000B7CD3 /* Color+extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C959D844268D61760050E59F = {
 			isa = PBXGroup;
 			children = (
@@ -53,10 +85,13 @@
 			isa = PBXGroup;
 			children = (
 				C959D850268D61760050E59F /* AdvancedInterviewProjectApp.swift */,
-				C959D852268D61760050E59F /* AdvancedInterviewProject.swift */,
+				C959D86F268D81880050E59F /* Views */,
 				C959D854268D61770050E59F /* Assets.xcassets */,
 				C959D859268D61770050E59F /* Info.plist */,
 				C959D856268D61770050E59F /* Preview Content */,
+				C959D864268D7C050050E59F /* Models */,
+				C959D86C268D7FD80050E59F /* Lib */,
+				C959D875268D84380050E59F /* View Models */,
 			);
 			path = AdvancedInterviewProject;
 			sourceTree = "<group>";
@@ -67,6 +102,51 @@
 				C959D857268D61770050E59F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C959D864268D7C050050E59F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C959D861268D7ADC0050E59F /* ButtonColors.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C959D86C268D7FD80050E59F /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				4EE8D46C268E33CA000B7CD3 /* Extensions */,
+				C959D869268D7EE70050E59F /* Constants.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		C959D86F268D81880050E59F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C959D87A268E299A0050E59F /* Buttons */,
+				4E17F475268E6A0C0036FF8F /* Text */,
+				C959D852268D61760050E59F /* AdvancedInterviewProjectView.swift */,
+				C959D866268D7C9E0050E59F /* ColorPickerView.swift */,
+				4E48CCC3268F726F007D759B /* ImageTestView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C959D875268D84380050E59F /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				C959D872268D82900050E59F /* ColorPickerViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		C959D87A268E299A0050E59F /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				C959D877268E29960050E59F /* ColorPickerButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +218,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C959D853268D61760050E59F /* AdvancedInterviewProject.swift in Sources */,
+				C959D878268E29960050E59F /* ColorPickerButton.swift in Sources */,
+				C959D873268D82900050E59F /* ColorPickerViewModel.swift in Sources */,
+				C959D86A268D7EE70050E59F /* Constants.swift in Sources */,
+				4EE8D46A268E33A8000B7CD3 /* Color+extensions.swift in Sources */,
+				C959D867268D7C9E0050E59F /* ColorPickerView.swift in Sources */,
+				4E17F473268E69EE0036FF8F /* ColorPickerText.swift in Sources */,
+				C959D853268D61760050E59F /* AdvancedInterviewProjectView.swift in Sources */,
+				C959D862268D7ADC0050E59F /* ButtonColors.swift in Sources */,
+				4E48CCC4268F726F007D759B /* ImageTestView.swift in Sources */,
 				C959D851268D61760050E59F /* AdvancedInterviewProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

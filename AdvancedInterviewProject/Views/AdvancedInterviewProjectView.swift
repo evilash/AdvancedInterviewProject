@@ -7,15 +7,17 @@
 
 import SwiftUI
 
-struct AdvancedInterviewProject: View {
+struct AdvancedInterviewProjectView: View {
+    @StateObject var colorPickerVM = ColorPickerViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ColorPickerView()
+            .environmentObject(colorPickerVM)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        AdvancedInterviewProject()
+        AdvancedInterviewProjectView()
     }
 }

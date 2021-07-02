@@ -11,7 +11,7 @@ import SwiftUI
 struct AdvancedInterviewProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            AdvancedInterviewProject()
+            AdvancedInterviewProjectView()
         }
     }
 }
