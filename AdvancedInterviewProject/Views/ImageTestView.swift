@@ -12,7 +12,7 @@ struct ImageTestView: View {
     
     var body: some View {
         VStack {
-            AIPImage(image: viewModel.isDisplayed ? viewModel.enabledImage : viewModel.disabledImage)
+            AIPImage(image: viewModel.displayedImage)
             AIPTextField(placeholderText: Constants.TextField.placeholderText, text: $viewModel.userInput)
                 .navigationTitle(Constants.Views.imageTest)
             
