@@ -16,7 +16,7 @@ struct ImageTestView: View {
             AIPTextField(placeholderText: Constants.TextField.placeholderText, text: $viewModel.userInput)
                 .navigationTitle(Constants.Views.imageTest)
             
-            NavigationLink(Constants.Views.gifTest, destination: GIFTestView())
+            AIPNavigation(label: Constants.Views.gifTest, destination: GIFTestView())
         }
     }
 }

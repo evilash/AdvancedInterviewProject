@@ -21,7 +21,8 @@ struct ColorPickerView: View {
                         ColorPickerButton(colorInfo: buttonColor)
                     }
                 }
-                NavigationLink(Constants.Views.imageTest, destination: ImageTestView())
+                
+                AIPNavigation(label: Constants.Views.imageTest, destination: ImageTestView())
             }
         }
     }

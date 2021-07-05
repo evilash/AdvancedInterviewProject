@@ -21,6 +21,7 @@ struct Constants {
     struct SystemImages {
         static let photo = "photo"
         static let squareArrowUpDown = "square.and.arrow.down"
+        static let chevronRight = "chevron.right"
     }
     
     struct TextField {
