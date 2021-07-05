@@ -16,7 +16,7 @@ struct AIPTextField: View {
             .textFieldStyle(RoundedBorderTextFieldStyle())
             .border(Color.gray)
             .cornerRadius(2.5)
-            .padding(.init(arrayLiteral: [.leading, .trailing]), Constants.CGFloats.forty)
+            .padding(.init(arrayLiteral: [.leading, .trailing, .bottom]), Constants.CGFloats.forty)
     }
 }
 
