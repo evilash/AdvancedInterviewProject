@@ -2,7 +2,7 @@
 //  ColorPickerText.swift
 //  AdvancedInterviewProject
 //
-//  Created by ms70285 on 7/1/21.
+//  Created by Matt M Smith on 7/1/21.
 //
 
 import SwiftUI

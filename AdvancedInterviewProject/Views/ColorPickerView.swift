@@ -12,10 +12,16 @@ struct ColorPickerView: View {
     var rows: [GridItem] = Array(repeating: .init(.fixed(Constants.CGFloats.forty)), count: Constants.Numbers.two)
     
     var body: some View {
-        ColorPickerText()
-        LazyHGrid(rows: rows) {
-            ForEach(viewModel.allButtonColors) { buttonColor in
-                ColorPickerButton(colorInfo: buttonColor)
+        NavigationView {
+            VStack {
+                ColorPickerText()
+                    .navigationBarTitle(Constants.Views.colorPicker, displayMode: .inline)
+                LazyHGrid(rows: rows) {
+                    ForEach(viewModel.allButtonColors) { buttonColor in
+                        ColorPickerButton(colorInfo: buttonColor)
+                    }
+                }
+                NavigationLink(Constants.Views.imageTest, destination: ImageTestView())
             }
         }
     }

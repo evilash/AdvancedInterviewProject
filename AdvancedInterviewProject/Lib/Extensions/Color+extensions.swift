@@ -2,16 +2,14 @@
 //  Color+extensions.swift
 //  AdvancedInterviewProject
 //
-//  Created by ms70285 on 7/1/21.
+//  Created by Matt M Smith on 7/1/21.
 //
 
-import SwiftUI
+import struct SwiftUI.Color
 
 extension Color {
     static var buttonColor: Color {
-        let colors = ButtonColors.allCases
-        let randomNumber = Int.random(in: 0..<colors.count)
-        let randomColor = colors[randomNumber]
+        let randomColor = ButtonColors.randomColorSelector
 
         switch randomColor {
         case .yellow:

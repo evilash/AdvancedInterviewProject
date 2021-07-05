@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import SwiftUI
 
 enum ButtonColors: String, CaseIterable, Identifiable {
     case yellow
@@ -16,5 +15,12 @@ enum ButtonColors: String, CaseIterable, Identifiable {
     case indigo
     case purple
     
-    var id: String { rawValue }    
+    var id: String { rawValue }
+    
+    static var randomColorSelector: Self {
+        let colors = allCases
+        let randomNumber = Int.random(in: 0..<colors.count)
+        
+        return colors[randomNumber]
+    }
 }

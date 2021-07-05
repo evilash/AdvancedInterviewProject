@@ -5,7 +5,7 @@
 //  Created by Matt M Smith on 6/30/21.
 //
 
-import SwiftUI
+import struct SwiftUI.CGFloat
 
 struct Constants {
     struct CGFloats {
@@ -15,6 +15,22 @@ struct Constants {
     
     struct Numbers {
         static let two = 2
+        static let five = 5
+    }
+    
+    struct SystemImages {
+        static let photo = "photo"
+        static let squareArrowUpDown = "square.and.arrow.down"
+    }
+    
+    struct TextField {
+        static let placeholderText = "Enter Text"
+    }
+    
+    struct Views {
+        static let colorPicker = "Color Picker"
+        static let imageTest = "Image Test"
+        static let gifTest = "GIF Test"
     }
 
 }
