@@ -9,9 +9,19 @@ import SwiftUI
 
 class ImageTestViewModel: ObservableObject {
     @Published var userInput = ""
-    let imageModel = ImageTestModel()
-
-    var disabledImage: UIImage { imageModel.disabledImage }
-    var enabledImage: UIImage { imageModel.enabeledImage }
-    var isDisplayed: Bool { userInput.count >= Constants.Numbers.five }
+    
+    private let imageModel: ImageTestModel
+    private let disabledImage: UIImage
+    private let enabledImage: UIImage
+    
+    init() {
+        imageModel = ImageTestModel()
+        disabledImage = imageModel.disabledImage
+        enabledImage = imageModel.enabeledImage
+    }
+    
+    var displayedImage: UIImage {
+        let displayImage = userInput.count >= Constants.Numbers.five
+        return displayImage ? enabledImage : disabledImage
+    }
 }
