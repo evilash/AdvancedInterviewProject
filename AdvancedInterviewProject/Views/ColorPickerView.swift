@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ColorPickerView: View {
     @EnvironmentObject var viewModel: ColorPickerViewModel
-    var rows: [GridItem] = Array(repeating: .init(.fixed(Constants.CGFloats.forty)), count: Constants.Numbers.two)
+    let rows: [GridItem] = Array(repeating: .init(.fixed(Constants.CGFloats.forty)), count: Constants.Numbers.two)
     
     var body: some View {
         NavigationView {
