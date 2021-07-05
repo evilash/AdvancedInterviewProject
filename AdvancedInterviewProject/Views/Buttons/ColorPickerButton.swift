@@ -14,7 +14,8 @@ struct ColorPickerButton: View {
     var body: some View {
         Button(colorInfo.id) {
             viewModel.change(color: colorInfo)
-        }.padding(Constants.CGFloats.twenty)
+        }
+        .padding(Constants.CGFloats.twenty)
         .accessibility(hidden: true)
     }
 }

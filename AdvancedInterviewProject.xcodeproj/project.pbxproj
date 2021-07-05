@@ -10,6 +10,8 @@
 		4E17F473268E69EE0036FF8F /* ColorPickerText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17F472268E69EE0036FF8F /* ColorPickerText.swift */; };
 		4E48CCC4268F726F007D759B /* ImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E48CCC3268F726F007D759B /* ImageTestView.swift */; };
 		4EE8D46A268E33A8000B7CD3 /* Color+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8D469268E33A8000B7CD3 /* Color+extensions.swift */; };
+		C908733C2693682A00B88B60 /* AIPImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908733B2693682A00B88B60 /* AIPImage.swift */; };
+		C908734026936DB300B88B60 /* GIFTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908733F26936DB300B88B60 /* GIFTestView.swift */; };
 		C959D851268D61760050E59F /* AdvancedInterviewProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D850268D61760050E59F /* AdvancedInterviewProjectApp.swift */; };
 		C959D853268D61760050E59F /* AdvancedInterviewProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D852268D61760050E59F /* AdvancedInterviewProjectView.swift */; };
 		C959D855268D61770050E59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C959D854268D61770050E59F /* Assets.xcassets */; };
@@ -19,12 +21,17 @@
 		C959D86A268D7EE70050E59F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D869268D7EE70050E59F /* Constants.swift */; };
 		C959D873268D82900050E59F /* ColorPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D872268D82900050E59F /* ColorPickerViewModel.swift */; };
 		C959D878268E29960050E59F /* ColorPickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D877268E29960050E59F /* ColorPickerButton.swift */; };
+		C959D88726902DF80050E59F /* ImageTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D88626902DF70050E59F /* ImageTestModel.swift */; };
+		C97BE75C2690323F0042914D /* ImageTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BE75B2690323F0042914D /* ImageTestViewModel.swift */; };
+		C9A4CDD32693000300D5203D /* AIPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A4CDD22693000300D5203D /* AIPTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E17F472268E69EE0036FF8F /* ColorPickerText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerText.swift; sourceTree = "<group>"; };
 		4E48CCC3268F726F007D759B /* ImageTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestView.swift; sourceTree = "<group>"; };
 		4EE8D469268E33A8000B7CD3 /* Color+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extensions.swift"; sourceTree = "<group>"; };
+		C908733B2693682A00B88B60 /* AIPImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPImage.swift; sourceTree = "<group>"; };
+		C908733F26936DB300B88B60 /* GIFTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFTestView.swift; sourceTree = "<group>"; };
 		C959D84D268D61760050E59F /* AdvancedInterviewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedInterviewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C959D850268D61760050E59F /* AdvancedInterviewProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedInterviewProjectApp.swift; sourceTree = "<group>"; };
 		C959D852268D61760050E59F /* AdvancedInterviewProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedInterviewProjectView.swift; sourceTree = "<group>"; };
@@ -36,6 +43,9 @@
 		C959D869268D7EE70050E59F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C959D872268D82900050E59F /* ColorPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewModel.swift; sourceTree = "<group>"; };
 		C959D877268E29960050E59F /* ColorPickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerButton.swift; sourceTree = "<group>"; };
+		C959D88626902DF70050E59F /* ImageTestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestModel.swift; sourceTree = "<group>"; };
+		C97BE75B2690323F0042914D /* ImageTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestViewModel.swift; sourceTree = "<group>"; };
+		C9A4CDD22693000300D5203D /* AIPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,22 @@
 				4EE8D469268E33A8000B7CD3 /* Color+extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C908733D2693692200B88B60 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				C9A4CDD22693000300D5203D /* AIPTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		C908733E2693692C00B88B60 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C908733B2693682A00B88B60 /* AIPImage.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 		C959D844268D61760050E59F = {
@@ -108,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				C959D861268D7ADC0050E59F /* ButtonColors.swift */,
+				C959D88626902DF70050E59F /* ImageTestModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -126,9 +153,12 @@
 			children = (
 				C959D87A268E299A0050E59F /* Buttons */,
 				4E17F475268E6A0C0036FF8F /* Text */,
+				C908733D2693692200B88B60 /* TextField */,
+				C908733E2693692C00B88B60 /* Image */,
 				C959D852268D61760050E59F /* AdvancedInterviewProjectView.swift */,
 				C959D866268D7C9E0050E59F /* ColorPickerView.swift */,
 				4E48CCC3268F726F007D759B /* ImageTestView.swift */,
+				C908733F26936DB300B88B60 /* GIFTestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -137,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				C959D872268D82900050E59F /* ColorPickerViewModel.swift */,
+				C97BE75B2690323F0042914D /* ImageTestViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -224,10 +255,15 @@
 				4EE8D46A268E33A8000B7CD3 /* Color+extensions.swift in Sources */,
 				C959D867268D7C9E0050E59F /* ColorPickerView.swift in Sources */,
 				4E17F473268E69EE0036FF8F /* ColorPickerText.swift in Sources */,
+				C908734026936DB300B88B60 /* GIFTestView.swift in Sources */,
 				C959D853268D61760050E59F /* AdvancedInterviewProjectView.swift in Sources */,
 				C959D862268D7ADC0050E59F /* ButtonColors.swift in Sources */,
 				4E48CCC4268F726F007D759B /* ImageTestView.swift in Sources */,
 				C959D851268D61760050E59F /* AdvancedInterviewProjectApp.swift in Sources */,
+				C97BE75C2690323F0042914D /* ImageTestViewModel.swift in Sources */,
+				C959D88726902DF80050E59F /* ImageTestModel.swift in Sources */,
+				C908733C2693682A00B88B60 /* AIPImage.swift in Sources */,
+				C9A4CDD32693000300D5203D /* AIPTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
