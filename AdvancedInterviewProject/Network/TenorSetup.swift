@@ -13,12 +13,16 @@ struct TenorSetup {
     private static let filters = "contentfilter=high&media_filter=minimal&limit=1&media_filter=minimal"
     
     static func url(with string: String, for tenorURLType: TenorURL) -> URL? {
+        var url: URL?
+        
         switch tenorURLType {
         case .response:
             let query = string.replacingOccurrences(of: " ", with: "+")
-            return URL(string: "\(baseURL)?key=\(apiKey)&q=\(query)&\(filters)")
+            url = URL(string: "\(baseURL)?key=\(apiKey)&q=\(query)&\(filters)")
         case .gif:
-            return URL(string: string)
+            url = URL(string: string)
         }
+        
+        return url
     }
 }
