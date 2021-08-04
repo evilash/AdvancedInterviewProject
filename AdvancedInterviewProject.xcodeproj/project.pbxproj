@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E031A0C269CF16500180C93 /* GIFTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E031A0B269CF16500180C93 /* GIFTestViewModel.swift */; };
+		4E031A0F269D0C0D00180C93 /* GIFModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E031A0E269D0C0D00180C93 /* GIFModel.swift */; };
 		4E17F473268E69EE0036FF8F /* ColorPickerText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17F472268E69EE0036FF8F /* ColorPickerText.swift */; };
 		4E48CCC4268F726F007D759B /* ImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E48CCC3268F726F007D759B /* ImageTestView.swift */; };
+		4E6C4FFC2696176700013C83 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C4FFB2696176700013C83 /* NetworkError.swift */; };
+		4E6C4FFF26961BFF00013C83 /* TenorURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C4FFE26961BFF00013C83 /* TenorURL.swift */; };
+		4E729B97269CC08000E7D465 /* HStack+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E729B96269CC08000E7D465 /* HStack+extensions.swift */; };
+		4E81899426A63AA700595476 /* error.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4E81899326A63AA700595476 /* error.gif */; };
+		4E8B638726A246A9005946D0 /* Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8B638626A246A9005946D0 /* Animate.swift */; };
 		4EE8D46A268E33A8000B7CD3 /* Color+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE8D469268E33A8000B7CD3 /* Color+extensions.swift */; };
 		C908733C2693682A00B88B60 /* AIPImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908733B2693682A00B88B60 /* AIPImage.swift */; };
 		C908734026936DB300B88B60 /* GIFTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908733F26936DB300B88B60 /* GIFTestView.swift */; };
@@ -23,13 +30,24 @@
 		C959D873268D82900050E59F /* ColorPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D872268D82900050E59F /* ColorPickerViewModel.swift */; };
 		C959D878268E29960050E59F /* ColorPickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D877268E29960050E59F /* ColorPickerButton.swift */; };
 		C959D88726902DF80050E59F /* ImageTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D88626902DF70050E59F /* ImageTestModel.swift */; };
+		C95CBB5326940F8400C8C389 /* TenorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95CBB5226940F8400C8C389 /* TenorResponse.swift */; };
+		C95CBB58269410B600C8C389 /* TenorSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95CBB57269410B600C8C389 /* TenorSetup.swift */; };
 		C97BE75C2690323F0042914D /* ImageTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BE75B2690323F0042914D /* ImageTestViewModel.swift */; };
 		C9A4CDD32693000300D5203D /* AIPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A4CDD22693000300D5203D /* AIPTextField.swift */; };
+		C9AB61002695457E00271008 /* Tenor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AB60FF2695457E00271008 /* Tenor.swift */; };
+		C9AB61022695468C00271008 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AB61012695468C00271008 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E031A0B269CF16500180C93 /* GIFTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFTestViewModel.swift; sourceTree = "<group>"; };
+		4E031A0E269D0C0D00180C93 /* GIFModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFModel.swift; sourceTree = "<group>"; };
 		4E17F472268E69EE0036FF8F /* ColorPickerText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerText.swift; sourceTree = "<group>"; };
 		4E48CCC3268F726F007D759B /* ImageTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestView.swift; sourceTree = "<group>"; };
+		4E6C4FFB2696176700013C83 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		4E6C4FFE26961BFF00013C83 /* TenorURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenorURL.swift; sourceTree = "<group>"; };
+		4E729B96269CC08000E7D465 /* HStack+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HStack+extensions.swift"; sourceTree = "<group>"; };
+		4E81899326A63AA700595476 /* error.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = error.gif; sourceTree = "<group>"; };
+		4E8B638626A246A9005946D0 /* Animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate.swift; sourceTree = "<group>"; };
 		4EE8D469268E33A8000B7CD3 /* Color+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extensions.swift"; sourceTree = "<group>"; };
 		C908733B2693682A00B88B60 /* AIPImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPImage.swift; sourceTree = "<group>"; };
 		C908733F26936DB300B88B60 /* GIFTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFTestView.swift; sourceTree = "<group>"; };
@@ -46,8 +64,12 @@
 		C959D872268D82900050E59F /* ColorPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewModel.swift; sourceTree = "<group>"; };
 		C959D877268E29960050E59F /* ColorPickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerButton.swift; sourceTree = "<group>"; };
 		C959D88626902DF70050E59F /* ImageTestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestModel.swift; sourceTree = "<group>"; };
+		C95CBB5226940F8400C8C389 /* TenorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenorResponse.swift; sourceTree = "<group>"; };
+		C95CBB57269410B600C8C389 /* TenorSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenorSetup.swift; sourceTree = "<group>"; };
 		C97BE75B2690323F0042914D /* ImageTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestViewModel.swift; sourceTree = "<group>"; };
 		C9A4CDD22693000300D5203D /* AIPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPTextField.swift; sourceTree = "<group>"; };
+		C9AB60FF2695457E00271008 /* Tenor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tenor.swift; sourceTree = "<group>"; };
+		C9AB61012695468C00271008 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +91,30 @@
 			path = Text;
 			sourceTree = "<group>";
 		};
+		4E729B93269CA47100E7D465 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C90873412693728A00B88B60 /* AIPNavigation.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		4EE8D46C268E33CA000B7CD3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				4EE8D469268E33A8000B7CD3 /* Color+extensions.swift */,
+				4E729B96269CC08000E7D465 /* HStack+extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4EF9CA3026B9B9EC0033E94A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C4FFB2696176700013C83 /* NetworkError.swift */,
+				4E6C4FFE26961BFF00013C83 /* TenorURL.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 		C908733D2693692200B88B60 /* TextField */ = {
@@ -113,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				C959D850268D61760050E59F /* AdvancedInterviewProjectApp.swift */,
+				C95CBB5426940FBC00C8C389 /* Network */,
 				C959D86F268D81880050E59F /* Views */,
 				C959D854268D61770050E59F /* Assets.xcassets */,
 				C959D859268D61770050E59F /* Info.plist */,
@@ -137,6 +178,8 @@
 			children = (
 				C959D861268D7ADC0050E59F /* ButtonColors.swift */,
 				C959D88626902DF70050E59F /* ImageTestModel.swift */,
+				C95CBB5226940F8400C8C389 /* TenorResponse.swift */,
+				4E031A0E269D0C0D00180C93 /* GIFModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -145,7 +188,10 @@
 			isa = PBXGroup;
 			children = (
 				4EE8D46C268E33CA000B7CD3 /* Extensions */,
+				4EF9CA3026B9B9EC0033E94A /* Enums */,
 				C959D869268D7EE70050E59F /* Constants.swift */,
+				4E8B638626A246A9005946D0 /* Animate.swift */,
+				4E81899326A63AA700595476 /* error.gif */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -157,11 +203,11 @@
 				4E17F475268E6A0C0036FF8F /* Text */,
 				C908733D2693692200B88B60 /* TextField */,
 				C908733E2693692C00B88B60 /* Image */,
+				4E729B93269CA47100E7D465 /* Navigation */,
 				C959D852268D61760050E59F /* AdvancedInterviewProjectView.swift */,
 				C959D866268D7C9E0050E59F /* ColorPickerView.swift */,
 				4E48CCC3268F726F007D759B /* ImageTestView.swift */,
 				C908733F26936DB300B88B60 /* GIFTestView.swift */,
-				C90873412693728A00B88B60 /* AIPNavigation.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +217,7 @@
 			children = (
 				C959D872268D82900050E59F /* ColorPickerViewModel.swift */,
 				C97BE75B2690323F0042914D /* ImageTestViewModel.swift */,
+				4E031A0B269CF16500180C93 /* GIFTestViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -181,6 +228,16 @@
 				C959D877268E29960050E59F /* ColorPickerButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		C95CBB5426940FBC00C8C389 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C95CBB57269410B600C8C389 /* TenorSetup.swift */,
+				C9AB60FF2695457E00271008 /* Tenor.swift */,
+				C9AB61012695468C00271008 /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +299,7 @@
 			files = (
 				C959D858268D61770050E59F /* Preview Assets.xcassets in Resources */,
 				C959D855268D61770050E59F /* Assets.xcassets in Resources */,
+				4E81899426A63AA700595476 /* error.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,17 +313,27 @@
 				C959D878268E29960050E59F /* ColorPickerButton.swift in Sources */,
 				C959D873268D82900050E59F /* ColorPickerViewModel.swift in Sources */,
 				C959D86A268D7EE70050E59F /* Constants.swift in Sources */,
+				4E6C4FFF26961BFF00013C83 /* TenorURL.swift in Sources */,
 				4EE8D46A268E33A8000B7CD3 /* Color+extensions.swift in Sources */,
+				4E031A0F269D0C0D00180C93 /* GIFModel.swift in Sources */,
 				C959D867268D7C9E0050E59F /* ColorPickerView.swift in Sources */,
 				4E17F473268E69EE0036FF8F /* ColorPickerText.swift in Sources */,
+				C95CBB58269410B600C8C389 /* TenorSetup.swift in Sources */,
+				C9AB61002695457E00271008 /* Tenor.swift in Sources */,
 				C908734026936DB300B88B60 /* GIFTestView.swift in Sources */,
 				C959D853268D61760050E59F /* AdvancedInterviewProjectView.swift in Sources */,
+				4E031A0C269CF16500180C93 /* GIFTestViewModel.swift in Sources */,
+				4E6C4FFC2696176700013C83 /* NetworkError.swift in Sources */,
+				4E729B97269CC08000E7D465 /* HStack+extensions.swift in Sources */,
 				C90873422693728A00B88B60 /* AIPNavigation.swift in Sources */,
 				C959D862268D7ADC0050E59F /* ButtonColors.swift in Sources */,
+				C9AB61022695468C00271008 /* NetworkManager.swift in Sources */,
 				4E48CCC4268F726F007D759B /* ImageTestView.swift in Sources */,
+				4E8B638726A246A9005946D0 /* Animate.swift in Sources */,
 				C959D851268D61760050E59F /* AdvancedInterviewProjectApp.swift in Sources */,
 				C97BE75C2690323F0042914D /* ImageTestViewModel.swift in Sources */,
 				C959D88726902DF80050E59F /* ImageTestModel.swift in Sources */,
+				C95CBB5326940F8400C8C389 /* TenorResponse.swift in Sources */,
 				C908733C2693682A00B88B60 /* AIPImage.swift in Sources */,
 				C9A4CDD32693000300D5203D /* AIPTextField.swift in Sources */,
 			);

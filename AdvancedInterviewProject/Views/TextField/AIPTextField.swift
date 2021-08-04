@@ -8,20 +8,20 @@
 import SwiftUI
 
 struct AIPTextField: View {
-    let placeholderText: String
     @Binding var text: String
     
     var body: some View {
-        TextField(placeholderText, text: $text)
+        TextField(Constants.TextField.placeholderText, text: $text)
             .textFieldStyle(RoundedBorderTextFieldStyle())
             .border(Color.gray)
             .cornerRadius(2.5)
             .padding(.init(arrayLiteral: [.leading, .trailing, .bottom]), Constants.CGFloats.forty)
+            .padding(.top, Constants.CGFloats.twenty)
     }
 }
 
 struct AIPTextField_Previews: PreviewProvider {
     static var previews: some View {
-        AIPTextField(placeholderText: "Enter Text", text: .constant("testing"))
+        AIPTextField(text: .constant("testing"))
     }
 }

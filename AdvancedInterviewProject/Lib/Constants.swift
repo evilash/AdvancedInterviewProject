@@ -8,22 +8,39 @@
 import struct SwiftUI.CGFloat
 
 struct Constants {
+    struct Alert {
+        static let title = "ERROR"
+        static let ok = "OK"
+        static let message = "You've stumped me. I don't know what you did!"
+    }
+    
+    struct Buttons {
+        static let search = "Search Button"
+    }
+    
     struct CGFloats {
         static let twenty: CGFloat = 20
         static let forty: CGFloat = 40
     }
     
-    struct Numbers {
-        static let two = 2
-        static let five = 5
+    struct FileType {
+        static let jpeg = "jpeg"
+        static let gif = "gif"
     }
     
-    struct SystemImages {
+    struct Images {
+        static let kid = "kid"
+        static let error = "error"
         static let photo = "photo"
-        static let squareArrowUpDown = "square.and.arrow.down"
+        static let xmark = "xmark.octagon"
         static let chevronRight = "chevron.right"
     }
     
+    struct Numbers {
+        static let five = 5
+        static let eight = 8
+    }
+        
     struct TextField {
         static let placeholderText = "Enter Text"
     }

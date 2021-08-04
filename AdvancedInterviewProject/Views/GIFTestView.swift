@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct GIFTestView: View {
+    @ObservedObject var viewModel = GIFTestViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(viewModel.title)
+            AIPImage(image: viewModel.image)
+            AIPTextField(text: $viewModel.query)
+                .navigationTitle(Constants.Views.gifTest)
+            
+            Button(Constants.Buttons.search) {
+                viewModel.getGifAndTitle()
+            }
+        }
+        .alert(item: $viewModel.networkError) {_ in
+            Alert(title: Text(Constants.Alert.title), message: Text(viewModel.error), dismissButton: .cancel(Text(Constants.Alert.ok)))
+        }
+        .onDisappear {
+            viewModel.stopGIF()
+        }
     }
 }
 
