@@ -12,13 +12,14 @@ struct AIPImage: View {
     
     var body: some View {
         Image(uiImage: image)
-            .scaleEffect(.init(width: Constants.Numbers.five, height: Constants.Numbers.five))
-            .padding(.bottom, Constants.CGFloats.forty)
+            .resizable()
+            .scaledToFit()
+            .frame(width: 200, height: 180)
     }
 }
 
 struct AIPImage_Previews: PreviewProvider {
     static var previews: some View {
-        AIPImage(image: (UIImage(systemName: Constants.SystemImages.photo)!))
+        AIPImage(image: (UIImage(systemName: Constants.Images.photo)!))
     }
 }

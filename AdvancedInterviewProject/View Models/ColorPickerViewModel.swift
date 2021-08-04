@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-class ColorPickerViewModel: ObservableObject {
+final class ColorPickerViewModel: ObservableObject {
     @Published var color = Color.black
-    @Published var message = "Tap a button!"
+    @Published var message = "Tap a color!"
     
     var allButtonColors: [ButtonColors] { ButtonColors.allCases }
     

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class ImageTestViewModel: ObservableObject {
+final class ImageTestViewModel: ObservableObject {
     @Published var userInput = ""
     
     private let imageModel: ImageTestModel
@@ -21,7 +21,7 @@ class ImageTestViewModel: ObservableObject {
     }
     
     var displayedImage: UIImage {
-        let displayImage = userInput.count >= Constants.Numbers.five
+        let displayImage = userInput.count >= Constants.Numbers.eight
         return displayImage ? enabledImage : disabledImage
     }
 }

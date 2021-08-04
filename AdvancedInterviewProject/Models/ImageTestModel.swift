@@ -8,6 +8,6 @@
 import SwiftUI
 
 struct ImageTestModel {
-    let disabledImage = UIImage(systemName: Constants.SystemImages.photo)!
-    let enabeledImage = UIImage(systemName: Constants.SystemImages.squareArrowUpDown)!
+    let disabledImage = UIImage(systemName: Constants.Images.photo)!
+    let enabeledImage = UIImage(systemName: Constants.Images.xmark)!
 }

@@ -15,6 +15,8 @@ enum ButtonColors: String, CaseIterable, Identifiable {
     case indigo
     case purple
     
+    static let rows = allCases.count / 3
+    
     var id: String { rawValue }
     
     static var randomColorSelector: Self {
