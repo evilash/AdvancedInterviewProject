@@ -9,19 +9,13 @@ import SwiftUI
 
 struct ColorPickerView: View {
     @EnvironmentObject var viewModel: ColorPickerViewModel
-    let rows: [GridItem] = Array(repeating: .init(.fixed(Constants.CGFloats.forty)), count: ButtonColors.rows)
     
     var body: some View {
         NavigationView {
             VStack {
                 ColorPickerText()
                     .navigationBarTitle(Constants.Views.colorPicker, displayMode: .inline)
-                LazyHGrid(rows: rows) {
-                    ForEach(viewModel.allButtonColors) { buttonColor in
-                        ColorPickerButton(colorInfo: buttonColor)
-                    }
-                }
-                
+                AIPLazyHGrid(buttonColors: viewModel.allButtonColors)
                 AIPNavigation(label: Constants.Views.imageTest, destination: ImageTestView())
             }
         }
