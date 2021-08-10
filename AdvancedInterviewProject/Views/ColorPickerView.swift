@@ -13,10 +13,11 @@ struct ColorPickerView: View {
     var body: some View {
         NavigationView {
             VStack {
-                ColorPickerText()
-                    .navigationBarTitle(Constants.Views.colorPicker, displayMode: .inline)
-                AIPLazyHGrid(buttonColors: viewModel.allButtonColors)
-                AIPNavigation(label: Constants.Views.imageTest, destination: ImageTestView())
+                AIPView(navigation: ImageTestView(), navLabel: Constants.Views.imageTest) {
+                    ColorPickerText()
+                        .navigationBarTitle(Constants.Views.colorPicker, displayMode: .inline)
+                    AIPLazyHGrid(buttonColors: viewModel.allButtonColors)
+                }
             }
         }
     }
