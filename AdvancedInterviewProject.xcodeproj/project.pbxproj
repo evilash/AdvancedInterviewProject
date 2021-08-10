@@ -34,6 +34,7 @@
 		C95CBB5326940F8400C8C389 /* TenorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95CBB5226940F8400C8C389 /* TenorResponse.swift */; };
 		C95CBB58269410B600C8C389 /* TenorSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95CBB57269410B600C8C389 /* TenorSetup.swift */; };
 		C97BE75C2690323F0042914D /* ImageTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BE75B2690323F0042914D /* ImageTestViewModel.swift */; };
+		C97BFA2C26C33B8500520A51 /* AIPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BFA2B26C33B8500520A51 /* AIPView.swift */; };
 		C9A4CDD32693000300D5203D /* AIPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A4CDD22693000300D5203D /* AIPTextField.swift */; };
 		C9AB61002695457E00271008 /* Tenor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AB60FF2695457E00271008 /* Tenor.swift */; };
 		C9AB61022695468C00271008 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AB61012695468C00271008 /* NetworkManager.swift */; };
@@ -69,6 +70,7 @@
 		C95CBB5226940F8400C8C389 /* TenorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenorResponse.swift; sourceTree = "<group>"; };
 		C95CBB57269410B600C8C389 /* TenorSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenorSetup.swift; sourceTree = "<group>"; };
 		C97BE75B2690323F0042914D /* ImageTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestViewModel.swift; sourceTree = "<group>"; };
+		C97BFA2B26C33B8500520A51 /* AIPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPView.swift; sourceTree = "<group>"; };
 		C9A4CDD22693000300D5203D /* AIPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPTextField.swift; sourceTree = "<group>"; };
 		C9AB60FF2695457E00271008 /* Tenor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tenor.swift; sourceTree = "<group>"; };
 		C9AB61012695468C00271008 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				C908733D2693692200B88B60 /* TextField */,
 				C908733E2693692C00B88B60 /* Image */,
 				4E729B93269CA47100E7D465 /* Navigation */,
+				C97BFA2D26C33BAA00520A51 /* View */,
 				C959D852268D61760050E59F /* AdvancedInterviewProjectView.swift */,
 				C959D866268D7C9E0050E59F /* ColorPickerView.swift */,
 				4E48CCC3268F726F007D759B /* ImageTestView.swift */,
@@ -241,6 +244,14 @@
 				C9AB61012695468C00271008 /* NetworkManager.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		C97BFA2D26C33BAA00520A51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C97BFA2B26C33B8500520A51 /* AIPView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C959D878268E29960050E59F /* ColorPickerButton.swift in Sources */,
+				C97BFA2C26C33B8500520A51 /* AIPView.swift in Sources */,
 				C959D873268D82900050E59F /* ColorPickerViewModel.swift in Sources */,
 				C959D86A268D7EE70050E59F /* Constants.swift in Sources */,
 				4E6C4FFF26961BFF00013C83 /* TenorURL.swift in Sources */,
