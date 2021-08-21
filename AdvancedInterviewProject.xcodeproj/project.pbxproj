@@ -54,6 +54,7 @@
 		C908733B2693682A00B88B60 /* AIPImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPImage.swift; sourceTree = "<group>"; };
 		C908733F26936DB300B88B60 /* GIFTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFTestView.swift; sourceTree = "<group>"; };
 		C90873412693728A00B88B60 /* AIPNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPNavigation.swift; sourceTree = "<group>"; };
+		C94EA24426D183630042100D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C959D84D268D61760050E59F /* AdvancedInterviewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedInterviewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C959D850268D61760050E59F /* AdvancedInterviewProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedInterviewProjectApp.swift; sourceTree = "<group>"; };
 		C959D852268D61760050E59F /* AdvancedInterviewProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedInterviewProjectView.swift; sourceTree = "<group>"; };
@@ -163,6 +164,7 @@
 				C959D864268D7C050050E59F /* Models */,
 				C959D86C268D7FD80050E59F /* Lib */,
 				C959D875268D84380050E59F /* View Models */,
+				C94EA24426D183630042100D /* README.md */,
 			);
 			path = AdvancedInterviewProject;
 			sourceTree = "<group>";
