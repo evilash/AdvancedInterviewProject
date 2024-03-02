@@ -8,9 +8,9 @@
 import Foundation
 
 struct TenorSetup {
-    private static let apiKey = "ADD-API-KEY-HERE"
-    private static let baseURL = "https://api.tenor.com/v1/search"
-    private static let filters = "contentfilter=high&media_filter=minimal&limit=1&media_filter=minimal"
+    private static let apiKey = "AIzaSyCLTnCi11mUp3ntfamAk8y5fELyI05tLok"
+    private static let baseURL = "https://tenor.googleapis.com/v2/search"
+    private static let filters = "limit=1&media_filter=gif&contentfilter=high"
     
     static func url(with string: String, for tenorURLType: TenorURL) -> URL? {
         var url: URL?

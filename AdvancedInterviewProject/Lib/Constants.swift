@@ -30,7 +30,7 @@ struct Constants {
     
     struct Images {
         static let kid = "kid"
-        static let error = "error"
+        static let error = "standby"
         static let photo = "photo"
         static let xmark = "xmark.octagon"
         static let chevronRight = "chevron.right"
