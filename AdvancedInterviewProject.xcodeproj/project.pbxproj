@@ -14,12 +14,12 @@
 		4E6C4FFC2696176700013C83 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C4FFB2696176700013C83 /* NetworkError.swift */; };
 		4E6C4FFF26961BFF00013C83 /* TenorURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C4FFE26961BFF00013C83 /* TenorURL.swift */; };
 		4E729B97269CC08000E7D465 /* HStack+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E729B96269CC08000E7D465 /* HStack+extensions.swift */; };
-		4E7D856D26BB27070004C190 /* AIPLazyHGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D856C26BB27070004C190 /* AIPLazyHGrid.swift */; };
+		4E7D856D26BB27070004C190 /* LazyHorizontalGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D856C26BB27070004C190 /* LazyHorizontalGrid.swift */; };
 		4E81899426A63AA700595476 /* error.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4E81899326A63AA700595476 /* error.gif */; };
 		4E8B638726A246A9005946D0 /* Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8B638626A246A9005946D0 /* Animate.swift */; };
-		C908733C2693682A00B88B60 /* AIPImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908733B2693682A00B88B60 /* AIPImage.swift */; };
+		C908733C2693682A00B88B60 /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908733B2693682A00B88B60 /* CustomImage.swift */; };
 		C908734026936DB300B88B60 /* GIFTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908733F26936DB300B88B60 /* GIFTestView.swift */; };
-		C90873422693728A00B88B60 /* AIPNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90873412693728A00B88B60 /* AIPNavigation.swift */; };
+		C90873422693728A00B88B60 /* CustomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90873412693728A00B88B60 /* CustomNavigation.swift */; };
 		C959D851268D61760050E59F /* AdvancedInterviewProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D850268D61760050E59F /* AdvancedInterviewProjectApp.swift */; };
 		C959D853268D61760050E59F /* AdvancedInterviewProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D852268D61760050E59F /* AdvancedInterviewProjectView.swift */; };
 		C959D855268D61770050E59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C959D854268D61770050E59F /* Assets.xcassets */; };
@@ -30,11 +30,16 @@
 		C959D873268D82900050E59F /* ColorPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D872268D82900050E59F /* ColorPickerViewModel.swift */; };
 		C959D878268E29960050E59F /* ColorPickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D877268E29960050E59F /* ColorPickerButton.swift */; };
 		C959D88726902DF80050E59F /* ImageTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D88626902DF70050E59F /* ImageTestModel.swift */; };
-		C95CBB5326940F8400C8C389 /* TenorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95CBB5226940F8400C8C389 /* TenorResponse.swift */; };
-		C95CBB58269410B600C8C389 /* TenorSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95CBB57269410B600C8C389 /* TenorSetup.swift */; };
+		C95CBB5326940F8400C8C389 /* GiphyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95CBB5226940F8400C8C389 /* GiphyResponse.swift */; };
+		C95CBB58269410B600C8C389 /* GiphySetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95CBB57269410B600C8C389 /* GiphySetup.swift */; };
 		C97BE75C2690323F0042914D /* ImageTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BE75B2690323F0042914D /* ImageTestViewModel.swift */; };
 		C97BFA2C26C33B8500520A51 /* AIPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BFA2B26C33B8500520A51 /* AIPView.swift */; };
+<<<<<<< HEAD
 		C9A4CDD32693000300D5203D /* AIPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A4CDD22693000300D5203D /* AIPTextField.swift */; };
+=======
+		C9A4CDD32693000300D5203D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A4CDD22693000300D5203D /* CustomTextField.swift */; };
+		C9AB61002695457E00271008 /* Tenor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AB60FF2695457E00271008 /* Tenor.swift */; };
+>>>>>>> 0423b87 (Updated some names)
 		C9AB61022695468C00271008 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AB61012695468C00271008 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,12 +51,12 @@
 		4E6C4FFB2696176700013C83 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		4E6C4FFE26961BFF00013C83 /* TenorURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenorURL.swift; sourceTree = "<group>"; };
 		4E729B96269CC08000E7D465 /* HStack+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HStack+extensions.swift"; sourceTree = "<group>"; };
-		4E7D856C26BB27070004C190 /* AIPLazyHGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPLazyHGrid.swift; sourceTree = "<group>"; };
+		4E7D856C26BB27070004C190 /* LazyHorizontalGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHorizontalGrid.swift; sourceTree = "<group>"; };
 		4E81899326A63AA700595476 /* error.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = error.gif; sourceTree = "<group>"; };
 		4E8B638626A246A9005946D0 /* Animate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate.swift; sourceTree = "<group>"; };
-		C908733B2693682A00B88B60 /* AIPImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPImage.swift; sourceTree = "<group>"; };
+		C908733B2693682A00B88B60 /* CustomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
 		C908733F26936DB300B88B60 /* GIFTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFTestView.swift; sourceTree = "<group>"; };
-		C90873412693728A00B88B60 /* AIPNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPNavigation.swift; sourceTree = "<group>"; };
+		C90873412693728A00B88B60 /* CustomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigation.swift; sourceTree = "<group>"; };
 		C94EA24426D183630042100D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C959D84D268D61760050E59F /* AdvancedInterviewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedInterviewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C959D850268D61760050E59F /* AdvancedInterviewProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedInterviewProjectApp.swift; sourceTree = "<group>"; };
@@ -65,11 +70,16 @@
 		C959D872268D82900050E59F /* ColorPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewModel.swift; sourceTree = "<group>"; };
 		C959D877268E29960050E59F /* ColorPickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerButton.swift; sourceTree = "<group>"; };
 		C959D88626902DF70050E59F /* ImageTestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestModel.swift; sourceTree = "<group>"; };
-		C95CBB5226940F8400C8C389 /* TenorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenorResponse.swift; sourceTree = "<group>"; };
-		C95CBB57269410B600C8C389 /* TenorSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenorSetup.swift; sourceTree = "<group>"; };
+		C95CBB5226940F8400C8C389 /* GiphyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyResponse.swift; sourceTree = "<group>"; };
+		C95CBB57269410B600C8C389 /* GiphySetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySetup.swift; sourceTree = "<group>"; };
 		C97BE75B2690323F0042914D /* ImageTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestViewModel.swift; sourceTree = "<group>"; };
 		C97BFA2B26C33B8500520A51 /* AIPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPView.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		C9A4CDD22693000300D5203D /* AIPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPTextField.swift; sourceTree = "<group>"; };
+=======
+		C9A4CDD22693000300D5203D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		C9AB60FF2695457E00271008 /* Tenor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tenor.swift; sourceTree = "<group>"; };
+>>>>>>> 0423b87 (Updated some names)
 		C9AB61012695468C00271008 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +105,7 @@
 		4E729B93269CA47100E7D465 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				C90873412693728A00B88B60 /* AIPNavigation.swift */,
+				C90873412693728A00B88B60 /* CustomNavigation.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -120,7 +130,7 @@
 		C908733D2693692200B88B60 /* TextField */ = {
 			isa = PBXGroup;
 			children = (
-				C9A4CDD22693000300D5203D /* AIPTextField.swift */,
+				C9A4CDD22693000300D5203D /* CustomTextField.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -128,7 +138,7 @@
 		C908733E2693692C00B88B60 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				C908733B2693682A00B88B60 /* AIPImage.swift */,
+				C908733B2693682A00B88B60 /* CustomImage.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -179,7 +189,7 @@
 			children = (
 				C959D861268D7ADC0050E59F /* ButtonColors.swift */,
 				C959D88626902DF70050E59F /* ImageTestModel.swift */,
-				C95CBB5226940F8400C8C389 /* TenorResponse.swift */,
+				C95CBB5226940F8400C8C389 /* GiphyResponse.swift */,
 				4E031A0E269D0C0D00180C93 /* GIFModel.swift */,
 			);
 			path = Models;
@@ -210,7 +220,7 @@
 				C959D866268D7C9E0050E59F /* ColorPickerView.swift */,
 				4E48CCC3268F726F007D759B /* ImageTestView.swift */,
 				C908733F26936DB300B88B60 /* GIFTestView.swift */,
-				4E7D856C26BB27070004C190 /* AIPLazyHGrid.swift */,
+				4E7D856C26BB27070004C190 /* LazyHorizontalGrid.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -236,7 +246,12 @@
 		C95CBB5426940FBC00C8C389 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				C95CBB57269410B600C8C389 /* TenorSetup.swift */,
+=======
+				C95CBB57269410B600C8C389 /* GiphySetup.swift */,
+				C9AB60FF2695457E00271008 /* Tenor.swift */,
+>>>>>>> 0423b87 (Updated some names)
 				C9AB61012695468C00271008 /* NetworkManager.swift */,
 			);
 			path = Network;
@@ -328,24 +343,29 @@
 				4E031A0F269D0C0D00180C93 /* GIFModel.swift in Sources */,
 				C959D867268D7C9E0050E59F /* ColorPickerView.swift in Sources */,
 				4E17F473268E69EE0036FF8F /* ColorPickerText.swift in Sources */,
+<<<<<<< HEAD
 				C95CBB58269410B600C8C389 /* TenorSetup.swift in Sources */,
+=======
+				C95CBB58269410B600C8C389 /* GiphySetup.swift in Sources */,
+				C9AB61002695457E00271008 /* Tenor.swift in Sources */,
+>>>>>>> 0423b87 (Updated some names)
 				C908734026936DB300B88B60 /* GIFTestView.swift in Sources */,
 				C959D853268D61760050E59F /* AdvancedInterviewProjectView.swift in Sources */,
 				4E031A0C269CF16500180C93 /* GIFTestViewModel.swift in Sources */,
 				4E6C4FFC2696176700013C83 /* NetworkError.swift in Sources */,
 				4E729B97269CC08000E7D465 /* HStack+extensions.swift in Sources */,
-				C90873422693728A00B88B60 /* AIPNavigation.swift in Sources */,
+				C90873422693728A00B88B60 /* CustomNavigation.swift in Sources */,
 				C959D862268D7ADC0050E59F /* ButtonColors.swift in Sources */,
 				C9AB61022695468C00271008 /* NetworkManager.swift in Sources */,
 				4E48CCC4268F726F007D759B /* ImageTestView.swift in Sources */,
-				4E7D856D26BB27070004C190 /* AIPLazyHGrid.swift in Sources */,
+				4E7D856D26BB27070004C190 /* LazyHorizontalGrid.swift in Sources */,
 				4E8B638726A246A9005946D0 /* Animate.swift in Sources */,
 				C959D851268D61760050E59F /* AdvancedInterviewProjectApp.swift in Sources */,
 				C97BE75C2690323F0042914D /* ImageTestViewModel.swift in Sources */,
 				C959D88726902DF80050E59F /* ImageTestModel.swift in Sources */,
-				C95CBB5326940F8400C8C389 /* TenorResponse.swift in Sources */,
-				C908733C2693682A00B88B60 /* AIPImage.swift in Sources */,
-				C9A4CDD32693000300D5203D /* AIPTextField.swift in Sources */,
+				C95CBB5326940F8400C8C389 /* GiphyResponse.swift in Sources */,
+				C908733C2693682A00B88B60 /* CustomImage.swift in Sources */,
+				C9A4CDD32693000300D5203D /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

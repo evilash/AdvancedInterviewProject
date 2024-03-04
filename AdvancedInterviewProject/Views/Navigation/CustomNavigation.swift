@@ -1,5 +1,5 @@
 //
-//  AIPNavigation.swift
+//  CustomNavigation.swift
 //  AdvancedInterviewProject
 //
 //  Created by Matt M Smith on 7/5/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AIPNavigation<Destination>: View where Destination : View {
+struct CustomNavigation<Destination>: View where Destination : View {
     let label: String
     let destination: Destination
     var count = 5

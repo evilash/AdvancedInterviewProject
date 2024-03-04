@@ -1,5 +1,5 @@
 //
-//  TenorSetup.swift
+//  GiphySetup.swift
 //  AdvancedInterviewProject
 //
 //  Created by Matt M Smith on 7/5/21.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct TenorSetup {
+struct GiphySetup {
     private static let apiKey = "ADD-API-KEY"
     private static let giphy = "https://api.giphy.com/v1/gifs/search"
     private static let filters = "rating=g&media_filter=gif&limit=1"

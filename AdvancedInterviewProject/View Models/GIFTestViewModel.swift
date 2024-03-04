@@ -68,7 +68,7 @@ final class GIFTestViewModel: ObservableObject {
     
     private func decode(from data: Data) -> GIFModel {
         let decoder = JSONDecoder()
-        let response = try? decoder.decode(TenorResponse.self, from: data)
+        let response = try? decoder.decode(GiphyResponse.self, from: data)
         let results = response?.data.first
         let title = results?.title ?? Constants.Alert.title
         let url = getGifURL(from: results)

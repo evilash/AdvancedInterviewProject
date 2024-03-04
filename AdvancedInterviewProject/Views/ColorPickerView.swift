@@ -17,7 +17,7 @@ struct ColorPickerView: View {
                 AIPView(navigation: ImageTestView(), navLabel: Constants.Views.imageTest) {
                     ColorPickerText()
                         .navigationBarTitle(Constants.Views.colorPicker, displayMode: .inline)
-                    AIPLazyHGrid(buttonColors: viewModel.allButtonColors)
+                    LazyHorizontalGrid(buttonColors: viewModel.allButtonColors)
                 }
             }
         }

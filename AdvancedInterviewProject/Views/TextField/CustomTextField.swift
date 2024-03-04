@@ -1,5 +1,5 @@
 //
-//  AIPTextField.swift
+//  CustomTextField.swift
 //  AdvancedInterviewProject
 //
 //  Created by Matt M Smith on 7/5/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AIPTextField: View {
+struct CustomTextField: View {
     @Binding var text: String
     
     var body: some View {
@@ -22,6 +22,6 @@ struct AIPTextField: View {
 
 struct AIPTextField_Previews: PreviewProvider {
     static var previews: some View {
-        AIPTextField(text: .constant("testing"))
+        CustomTextField(text: .constant("testing"))
     }
 }
