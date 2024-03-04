@@ -21,7 +21,7 @@ final class ImageTestViewModel: ObservableObject {
     }
     
     var displayedImage: UIImage {
-        let displayImage = userInput.count >= Constants.Numbers.eight
+        let displayImage = userInput.count >= 8
         return displayImage ? enabledImage : disabledImage
     }
 }

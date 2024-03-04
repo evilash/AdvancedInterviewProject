@@ -36,11 +36,6 @@ struct Constants {
         static let chevronRight = "chevron.right"
     }
     
-    struct Numbers {
-        static let five = 5
-        static let eight = 8
-    }
-        
     struct TextField {
         static let placeholderText = "Enter Text"
     }
