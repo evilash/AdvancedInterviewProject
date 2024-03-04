@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct AIPLazyHGrid: View {
     let buttonColors: [ButtonColors]
     let rows: [GridItem] = Array(repeating: .init(.fixed(Constants.CGFloats.forty)), count: ButtonColors.rows)
@@ -17,11 +18,5 @@ struct AIPLazyHGrid: View {
                 ColorPickerButton(colorInfo: buttonColor)
             }
         }
-    }
-}
-
-struct AIPLazyHGrid_Previews: PreviewProvider {
-    static var previews: some View {
-        AIPLazyHGrid(buttonColors: ButtonColors.allCases)
     }
 }

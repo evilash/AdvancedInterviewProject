@@ -20,9 +20,3 @@ struct AIPNavigation<Destination>: View where Destination : View {
         }.hideHStack(count)
     }
 }
-
-struct AIPNavigation_Previews: PreviewProvider {
-    static var previews: some View {
-        AIPNavigation(label: "Test", destination: ColorPickerView())
-    }
-}

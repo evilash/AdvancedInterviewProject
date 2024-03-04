@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct ColorPickerView: View {
     @EnvironmentObject var viewModel: ColorPickerViewModel
     
@@ -20,11 +21,5 @@ struct ColorPickerView: View {
                 }
             }
         }
-    }
-}
-
-struct ColorPickerView_Previews: PreviewProvider {
-    static var previews: some View {
-        ColorPickerView()
     }
 }
