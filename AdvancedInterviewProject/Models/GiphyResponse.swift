@@ -1,5 +1,5 @@
 //
-//  Tenor.swift
+//  GiphyResponse.swift
 //  AdvancedInterviewProject
 //
 //  Created by Matt M Smith on 7/5/21.
@@ -7,17 +7,17 @@
 
 import Foundation
 
-struct TenorResponse: Decodable {
-    let results: [Results]
+struct GiphyResponse: Decodable {
+    let data: [Results]
 }
 
 struct Results: Decodable {
     let title: String
-    let media: [Media]
+    let images: Images
 }
 
-struct Media: Decodable {
-    let gif: GIF        
+struct Images: Decodable {
+    let original: GIF
 }
 
 struct GIF: Decodable {

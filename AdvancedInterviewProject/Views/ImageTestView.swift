@@ -13,8 +13,8 @@ struct ImageTestView: View {
     var body: some View {
         VStack {
             AIPView(navigation: GIFTestView(), navLabel: Constants.Views.gifTest, count: viewModel.userInput.count) {
-                AIPImage(image: viewModel.displayedImage)
-                AIPTextField(text: $viewModel.userInput)
+                CustomImage(image: viewModel.displayedImage)
+                CustomTextField(text: $viewModel.userInput)
             }
         }
     }

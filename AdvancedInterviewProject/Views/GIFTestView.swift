@@ -13,8 +13,8 @@ struct GIFTestView: View {
     var body: some View {
         VStack {
             Text(viewModel.title)
-            AIPImage(image: viewModel.image)
-            AIPTextField(text: $viewModel.query)
+            CustomImage(image: viewModel.image)
+            CustomTextField(text: $viewModel.query)
                 .navigationTitle(Constants.Views.gifTest)
             
             Button(Constants.Buttons.search) {

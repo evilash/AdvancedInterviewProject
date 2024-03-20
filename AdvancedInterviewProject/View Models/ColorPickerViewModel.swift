@@ -13,8 +13,9 @@ final class ColorPickerViewModel: ObservableObject {
     
     var allButtonColors: [ButtonColors] { ButtonColors.allCases }
     
+    @available(iOS 15.0, *)
     func change(color buttonColor: ButtonColors) {
-        color = Color.buttonColor
+        color = buttonColor.color
         message = "You've selected \(buttonColor.id)"
     }
 }

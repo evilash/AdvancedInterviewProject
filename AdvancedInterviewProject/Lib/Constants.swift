@@ -30,17 +30,12 @@ struct Constants {
     
     struct Images {
         static let kid = "kid"
-        static let error = "error"
+        static let error = "standby"
         static let photo = "photo"
         static let xmark = "xmark.octagon"
         static let chevronRight = "chevron.right"
     }
     
-    struct Numbers {
-        static let five = 5
-        static let eight = 8
-    }
-        
     struct TextField {
         static let placeholderText = "Enter Text"
     }

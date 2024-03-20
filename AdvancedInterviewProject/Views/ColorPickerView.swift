@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct ColorPickerView: View {
     @EnvironmentObject var viewModel: ColorPickerViewModel
     
@@ -16,15 +17,9 @@ struct ColorPickerView: View {
                 AIPView(navigation: ImageTestView(), navLabel: Constants.Views.imageTest) {
                     ColorPickerText()
                         .navigationBarTitle(Constants.Views.colorPicker, displayMode: .inline)
-                    AIPLazyHGrid(buttonColors: viewModel.allButtonColors)
+                    LazyHorizontalGrid(buttonColors: viewModel.allButtonColors)
                 }
             }
         }
-    }
-}
-
-struct ColorPickerView_Previews: PreviewProvider {
-    static var previews: some View {
-        ColorPickerView()
     }
 }

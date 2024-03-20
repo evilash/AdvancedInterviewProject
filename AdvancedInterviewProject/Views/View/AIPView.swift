@@ -23,6 +23,6 @@ struct AIPView<Content: View, Destination>: View where Destination : View {
     var body: some View {
         content
         
-        AIPNavigation(label: label, destination: destination, count: count)
+        CustomNavigation(label: label, destination: destination, count: count)
     }
 }

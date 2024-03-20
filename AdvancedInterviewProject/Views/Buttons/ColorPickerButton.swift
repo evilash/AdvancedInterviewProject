@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 struct ColorPickerButton: View {
     @EnvironmentObject var viewModel: ColorPickerViewModel
     let colorInfo: ButtonColors
@@ -17,11 +18,5 @@ struct ColorPickerButton: View {
         }
         .padding(Constants.CGFloats.twenty)
         .accessibility(hidden: true)
-    }
-}
-
-struct ColorPickerButton_Previews: PreviewProvider {
-    static var previews: some View {
-        ColorPickerButton(colorInfo: .green)
     }
 }
