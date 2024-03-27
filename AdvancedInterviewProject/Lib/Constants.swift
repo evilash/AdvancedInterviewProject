@@ -35,7 +35,7 @@ struct Constants {
         static let xmark = "xmark.octagon"
         static let chevronRight = "chevron.right"
     }
-        
+  
     struct TextField {
         static let placeholderText = "Enter Text"
     }

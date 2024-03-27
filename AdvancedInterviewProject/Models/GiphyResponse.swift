@@ -17,7 +17,7 @@ struct Results: Decodable {
 }
 
 struct Images: Decodable {
-    let original: GIF        
+    let original: GIF
 }
 
 struct GIF: Decodable {

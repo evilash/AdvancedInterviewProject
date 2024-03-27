@@ -17,9 +17,3 @@ struct CustomImage: View {
             .frame(width: 200, height: 180)
     }
 }
-
-struct AIPImage_Previews: PreviewProvider {
-    static var previews: some View {
-        CustomImage(image: (UIImage(systemName: Constants.Images.photo)!))
-    }
-}
