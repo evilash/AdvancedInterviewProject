@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AIPNavigation<Destination>: View where Destination : View {
+struct CustomNavigation<Destination>: View where Destination : View {
     let label: String
     let destination: Destination
     var count = 5
@@ -18,11 +18,5 @@ struct AIPNavigation<Destination>: View where Destination : View {
             Image(systemName: Constants.Images.chevronRight)
                 .foregroundColor(.blue)
         }.hideHStack(count)
-    }
-}
-
-struct AIPNavigation_Previews: PreviewProvider {
-    static var previews: some View {
-        AIPNavigation(label: "Test", destination: ColorPickerView())
     }
 }

@@ -7,17 +7,17 @@
 
 import Foundation
 
-struct TenorResponse: Decodable {
-    let results: [Results]
+struct GiphyResponse: Decodable {
+    let data: [Results]
 }
 
 struct Results: Decodable {
     let title: String
-    let media: [Media]
+    let media: Images
 }
 
-struct Media: Decodable {
-    let gif: GIF        
+struct Images: Decodable {
+    let original: GIF        
 }
 
 struct GIF: Decodable {

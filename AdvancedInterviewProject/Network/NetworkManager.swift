@@ -11,7 +11,7 @@ struct NetworkManager {
     typealias DataFromResponse = (Result<Data, NetworkError>) -> Void
     
     func getData(with query: String, for tenorURLType: TenorURL, handler: @escaping DataFromResponse) {
-        guard let url = TenorSetup.url(with: query, for: tenorURLType) else {
+        guard let url = GiphySetup.url(with: query, for: tenorURLType) else {
             handler(.failure(.malformedURL))
             return
         }

@@ -1,5 +1,5 @@
 //
-//  AIPImage.swift
+//  CustomImage.swift
 //  AdvancedInterviewProject
 //
 //  Created by Matt M Smith on 7/5/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AIPImage: View {
+struct CustomImage: View {
     let image: UIImage
     
     var body: some View {
@@ -20,6 +20,6 @@ struct AIPImage: View {
 
 struct AIPImage_Previews: PreviewProvider {
     static var previews: some View {
-        AIPImage(image: (UIImage(systemName: Constants.Images.photo)!))
+        CustomImage(image: (UIImage(systemName: Constants.Images.photo)!))
     }
 }

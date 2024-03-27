@@ -1,5 +1,5 @@
 //
-//  AIPLazyHGrid.swift
+//  LazyHorizontalGrid.swift
 //  AdvancedInterviewProject
 //
 //  Created by ms70285 on 8/4/21.
@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct AIPLazyHGrid: View {
+@available(iOS 15.0, *)
+struct LazyHorizontalGrid: View {
     let buttonColors: [ButtonColors]
     let rows: [GridItem] = Array(repeating: .init(.fixed(Constants.CGFloats.forty)), count: ButtonColors.rows)
     
@@ -17,11 +18,5 @@ struct AIPLazyHGrid: View {
                 ColorPickerButton(colorInfo: buttonColor)
             }
         }
-    }
-}
-
-struct AIPLazyHGrid_Previews: PreviewProvider {
-    static var previews: some View {
-        AIPLazyHGrid(buttonColors: ButtonColors.allCases)
     }
 }
