@@ -34,12 +34,7 @@
 		C95CBB58269410B600C8C389 /* GiphySetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95CBB57269410B600C8C389 /* GiphySetup.swift */; };
 		C97BE75C2690323F0042914D /* ImageTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BE75B2690323F0042914D /* ImageTestViewModel.swift */; };
 		C97BFA2C26C33B8500520A51 /* AIPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BFA2B26C33B8500520A51 /* AIPView.swift */; };
-<<<<<<< HEAD
-		C9A4CDD32693000300D5203D /* AIPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A4CDD22693000300D5203D /* AIPTextField.swift */; };
-=======
 		C9A4CDD32693000300D5203D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A4CDD22693000300D5203D /* CustomTextField.swift */; };
-		C9AB61002695457E00271008 /* Tenor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AB60FF2695457E00271008 /* Tenor.swift */; };
->>>>>>> 0423b87 (Updated some names)
 		C9AB61022695468C00271008 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AB61012695468C00271008 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +52,6 @@
 		C908733B2693682A00B88B60 /* CustomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
 		C908733F26936DB300B88B60 /* GIFTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFTestView.swift; sourceTree = "<group>"; };
 		C90873412693728A00B88B60 /* CustomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigation.swift; sourceTree = "<group>"; };
-		C94EA24426D183630042100D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C959D84D268D61760050E59F /* AdvancedInterviewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedInterviewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C959D850268D61760050E59F /* AdvancedInterviewProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedInterviewProjectApp.swift; sourceTree = "<group>"; };
 		C959D852268D61760050E59F /* AdvancedInterviewProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedInterviewProjectView.swift; sourceTree = "<group>"; };
@@ -74,12 +68,7 @@
 		C95CBB57269410B600C8C389 /* GiphySetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySetup.swift; sourceTree = "<group>"; };
 		C97BE75B2690323F0042914D /* ImageTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestViewModel.swift; sourceTree = "<group>"; };
 		C97BFA2B26C33B8500520A51 /* AIPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPView.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		C9A4CDD22693000300D5203D /* AIPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPTextField.swift; sourceTree = "<group>"; };
-=======
 		C9A4CDD22693000300D5203D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		C9AB60FF2695457E00271008 /* Tenor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tenor.swift; sourceTree = "<group>"; };
->>>>>>> 0423b87 (Updated some names)
 		C9AB61012695468C00271008 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,7 +160,6 @@
 				C959D864268D7C050050E59F /* Models */,
 				C959D86C268D7FD80050E59F /* Lib */,
 				C959D875268D84380050E59F /* View Models */,
-				C94EA24426D183630042100D /* README.md */,
 			);
 			path = AdvancedInterviewProject;
 			sourceTree = "<group>";
@@ -246,12 +234,7 @@
 		C95CBB5426940FBC00C8C389 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-				C95CBB57269410B600C8C389 /* TenorSetup.swift */,
-=======
 				C95CBB57269410B600C8C389 /* GiphySetup.swift */,
-				C9AB60FF2695457E00271008 /* Tenor.swift */,
->>>>>>> 0423b87 (Updated some names)
 				C9AB61012695468C00271008 /* NetworkManager.swift */,
 			);
 			path = Network;
@@ -343,12 +326,7 @@
 				4E031A0F269D0C0D00180C93 /* GIFModel.swift in Sources */,
 				C959D867268D7C9E0050E59F /* ColorPickerView.swift in Sources */,
 				4E17F473268E69EE0036FF8F /* ColorPickerText.swift in Sources */,
-<<<<<<< HEAD
-				C95CBB58269410B600C8C389 /* TenorSetup.swift in Sources */,
-=======
 				C95CBB58269410B600C8C389 /* GiphySetup.swift in Sources */,
-				C9AB61002695457E00271008 /* Tenor.swift in Sources */,
->>>>>>> 0423b87 (Updated some names)
 				C908734026936DB300B88B60 /* GIFTestView.swift in Sources */,
 				C959D853268D61760050E59F /* AdvancedInterviewProjectView.swift in Sources */,
 				4E031A0C269CF16500180C93 /* GIFTestViewModel.swift in Sources */,
