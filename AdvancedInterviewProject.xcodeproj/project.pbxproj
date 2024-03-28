@@ -29,7 +29,7 @@
 		C959D86A268D7EE70050E59F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D869268D7EE70050E59F /* Constants.swift */; };
 		C959D873268D82900050E59F /* ColorPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D872268D82900050E59F /* ColorPickerViewModel.swift */; };
 		C959D878268E29960050E59F /* ColorPickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D877268E29960050E59F /* ColorPickerButton.swift */; };
-		C959D88726902DF80050E59F /* ImageTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D88626902DF70050E59F /* ImageTestModel.swift */; };
+		C959D88726902DF80050E59F /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C959D88626902DF70050E59F /* ImageModel.swift */; };
 		C95CBB5326940F8400C8C389 /* GiphyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95CBB5226940F8400C8C389 /* GiphyResponse.swift */; };
 		C95CBB58269410B600C8C389 /* GiphySetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95CBB57269410B600C8C389 /* GiphySetup.swift */; };
 		C97BE75C2690323F0042914D /* ImageTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97BE75B2690323F0042914D /* ImageTestViewModel.swift */; };
@@ -63,7 +63,7 @@
 		C959D869268D7EE70050E59F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C959D872268D82900050E59F /* ColorPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewModel.swift; sourceTree = "<group>"; };
 		C959D877268E29960050E59F /* ColorPickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerButton.swift; sourceTree = "<group>"; };
-		C959D88626902DF70050E59F /* ImageTestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestModel.swift; sourceTree = "<group>"; };
+		C959D88626902DF70050E59F /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
 		C95CBB5226940F8400C8C389 /* GiphyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyResponse.swift; sourceTree = "<group>"; };
 		C95CBB57269410B600C8C389 /* GiphySetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySetup.swift; sourceTree = "<group>"; };
 		C97BE75B2690323F0042914D /* ImageTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestViewModel.swift; sourceTree = "<group>"; };
@@ -176,7 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				C959D861268D7ADC0050E59F /* ButtonColors.swift */,
-				C959D88626902DF70050E59F /* ImageTestModel.swift */,
+				C959D88626902DF70050E59F /* ImageModel.swift */,
 				C95CBB5226940F8400C8C389 /* GiphyResponse.swift */,
 				4E031A0E269D0C0D00180C93 /* GIFModel.swift */,
 			);
@@ -340,7 +340,7 @@
 				4E8B638726A246A9005946D0 /* Animate.swift in Sources */,
 				C959D851268D61760050E59F /* AdvancedInterviewProjectApp.swift in Sources */,
 				C97BE75C2690323F0042914D /* ImageTestViewModel.swift in Sources */,
-				C959D88726902DF80050E59F /* ImageTestModel.swift in Sources */,
+				C959D88726902DF80050E59F /* ImageModel.swift in Sources */,
 				C95CBB5326940F8400C8C389 /* GiphyResponse.swift in Sources */,
 				C908733C2693682A00B88B60 /* CustomImage.swift in Sources */,
 				C9A4CDD32693000300D5203D /* CustomTextField.swift in Sources */,

@@ -22,17 +22,11 @@ struct Constants {
         static let twenty: CGFloat = 20
         static let forty: CGFloat = 40
     }
-    
-    struct FileType {
-        static let jpeg = "jpeg"
-        static let gif = "gif"
-    }
-    
+
     struct Images {
         static let kid = "kid"
         static let error = "standby"
         static let photo = "photo"
-        static let xmark = "xmark.octagon"
         static let chevronRight = "chevron.right"
     }
   

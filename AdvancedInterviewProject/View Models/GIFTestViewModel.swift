@@ -76,11 +76,11 @@ final class GIFTestViewModel: ObservableObject {
         return GIFModel(title: title, url: url)
     }
     
-private func getGifURL(from results: Results?) -> String {
-        guard let media = results?.media.original, !media.url.isEmpty else {
-            return Bundle.main.path(forResource: Constants.Images.error, ofType: Constants.FileType.gif) ?? ""
+    private func getGifURL(from results: Results?) -> String {
+        guard let gif = results?.media.original, !gif.url.isEmpty else {
+            return Bundle.main.path(forResource: Constants.Images.error, ofType: "gif") ?? ""
         }
         
-        return media.url
+        return gif.url
     }
 }
