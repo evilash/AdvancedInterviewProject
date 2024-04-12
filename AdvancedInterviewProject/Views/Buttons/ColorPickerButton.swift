@@ -17,6 +17,6 @@ struct ColorPickerButton: View {
             viewModel.change(color: colorInfo)
         }
         .padding(Constants.CGFloats.twenty)
-        .accessibility(hidden: true)
+        .accessibility(hidden: colorInfo.color == .blue || colorInfo.color == .orange)
     }
 }
