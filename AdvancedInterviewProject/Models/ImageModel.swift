@@ -9,5 +9,5 @@ import SwiftUI
 
 struct ImageModel {
     let disabled = UIImage(systemName: Constants.Images.photo)!
-    let enabeled = UIImage(named: Constants.Images.kid, in: .main, with: nil)!
+    let enabeled = UIImage(named: Constants.Images.kid)!
 }
