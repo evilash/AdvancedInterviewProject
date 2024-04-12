@@ -10,13 +10,13 @@ import SwiftUI
 @available(iOS 15.0, *)
 struct ColorPickerButton: View {
     @EnvironmentObject var viewModel: ColorPickerViewModel
-    let colorInfo: ButtonColors
+    let colors: ButtonColors
     
     var body: some View {
-        Button(colorInfo.id) {
-            viewModel.change(color: colorInfo)
+        Button(colors.id) {
+            viewModel.change(color: colors)
         }
         .padding(Constants.CGFloats.twenty)
-        .accessibility(hidden: colorInfo.color == .blue || colorInfo.color == .orange)
+        .accessibility(hidden: colors.color == .blue || colors.color == .orange)
     }
 }
