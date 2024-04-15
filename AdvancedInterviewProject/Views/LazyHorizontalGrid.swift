@@ -15,7 +15,7 @@ struct LazyHorizontalGrid: View {
     var body: some View {
         LazyHGrid(rows: rows) {
             ForEach(buttonColors) { buttonColor in
-                ColorPickerButton(colorInfo: buttonColor)
+                ColorPickerButton(colors: buttonColor)
             }
         }
     }
